@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overwatch</title>
+</head>
+<body class = "body3">
+    
+      <!--Navigational Bar-->
+      <header>
+        <nav>
+            <ul class="menu">
+                <img src="overwatch_logo.png" alt="Overwatch" href="#" height="60px" width="60px"
+                    style="padding:5px; margin-right: 10px;"></img>
+                <li><a href="Overwatch.html">Home</a></li>
+                <li><a href="Heros.html">Heros</a></li>
+                <li><a href="Map.html">Maps</a></li>
+                <a class="btn" alt="play" href="https://overwatch.blizzard.com/en-gb/" target="_blank"><strong>Play
+                        now</strong></a>
+            </ul>
+        </nav>
+
+
+        <!--Maps-->
+
+        <h1 id = "map">Maps</h1>
+        <p id = "map_des">Here are some of the different maps that overwatch. Every map has objectives to accomplish, secrets to uncover, and strategies to explore. </p>
+        <br>
+        <div class = "container">
+        <br>
+        <div class = "Map_Slides">
+
+            <div class = "numbertxt">1/10</div>
+                <img class= "map_img"src = "Dorado-streets2.png" alt = "El dorado" style="width: 100%;">
+            <div class ="text">El DORADO</div>
+        </div>
+
+        <div class = "Map_Slides">
+            <div class = "numbertxt">2/10</div>
+            <img class = "map_img" src = "Route_66.png" alt = "Route" style="width: 100%;">
+            <div class ="text">Route66</div>
+        </div>
+
+        <div class = "Map_Slides">
+            <div class = "numbertxt">3/10</div>
+            <img class = "map_img" src = "midtown.png" alt = "german" style="width: 100%;">
+            <div class ="text">MidTown</div>
+        </div>    
+
+        <div class = "Map_Slides">
+            <div class = "numbertxt">4/10</div>
+            <img class = "map_img" src = "hollywood.png" alt = "hollywood" style="width: 100%;">
+            <div class ="text">Hollywood</div>
+        </div>    
+
+        <div class = "Map_Slides">
+            <div class = "numbertxt">5/10</div>
+            <img class = "map_img" src = "Blizzard_World.png" alt = "blizzard" style="width: 100%;">
+            <div class ="text">Blizzard World</div>
+        </div>    
+
+        <div class = "Map_Slides">
+            <div class = "numbertxt">6/10</div>
+            <img class = "map_img" src = "kingswrow.png" alt = "King"style="width: 100%;">
+            <div class ="text">Kings Road</div>
+        </div>    
+        
+        <!--Buttons-->
+        <a class = "prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class = "next" onclick="plusSlides(1)">&#10095;</a>
+        
+    </div>    
+        <br>
+    <div style = "text-align: center;">
+        <span class = "dot" onclick = "currentslide(1)"></span>
+        <span class = "dot" onclick = "currentslide(2)"></span>
+        <span class = "dot" onclick = "currentslide(3)"></span>
+        <span class = "dot" onclick = "currentslide(4)"></span>
+        <span class = "dot" onclick = "currentslide(5)"></span>
+        <span class = "dot" onclick = "currentslide(6)"></span>
+    </div>
+     
+        <link rel="stylesheet" href="styles(3).css">
+        <link rel="overwatch_main" href="Overwatch.html">
+        <script rel="javascript" src="java.js"></script>
+        <link rel="stylesheet" href="styles (2).css">
+</body>
+</html>
